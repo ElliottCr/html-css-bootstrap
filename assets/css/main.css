@@ -44,6 +44,21 @@ p {
     margin-bottom: 20px;
 }
 
+footer {
+    height: 120px;
+
+    background-color: #303030;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#footer-text {
+    text-align: center;
+    color: gray;
+}
+
 @media (max-width: 768px) {
     #contact-button-container { display: none; }
     #mobile-contact-item { display: unset; }
