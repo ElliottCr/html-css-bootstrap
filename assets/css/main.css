@@ -59,7 +59,27 @@ footer {
     color: gray;
 }
 
+.descriptions {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.descriptions h1 {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.descriptions section {
+    margin-bottom: 100px;
+}
+
 @media (max-width: 768px) {
     #contact-button-container { display: none; }
     #mobile-contact-item { display: unset; }
+    .descriptions {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
